@@ -1,0 +1,120 @@
+
+.Table {
+	display: table;
+	padding: 1px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.inner-Table {
+	display: table;
+	padding-top: 5px;
+}
+
+.Row {
+	display: table-row;
+}
+
+.preFillField {
+	background-color: #c2c2d6;
+}
+
+.Cell {
+	display: table-cell;
+	border-width: thin;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	vertical-align: middle;
+}
+
+.hrline {
+	width: 95%;
+	color: #d3d3d3;
+}
+
+
+.ui-widget-content.addOwnCssid {
+	background: #ffffff url("images/ui-bg_flat_100_ffffff_40x100.png") repeat-x scroll 50% 50%;
+    border: none !important;
+    color: #000000;
+}
+
+.ui-dialog.addOwnCssid {
+	border-bottom-right-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    border-top-left-radius: 8px !important;
+}
+
+.addOwnCssid .ui-widget-header{ 
+	background:none !important; 
+	border:none !important; 
+	color: #222222 !important; 
+	font-weight: bold 
+}
+
+.enrollBlackButton {
+    background: #666666 none repeat scroll 0 0 !important;
+    color: #ffffff;
+    font-size: 1.4em;
+ 	border:none !important
+}
+
+.genderClass { 
+	width:135px;
+}
+.greyBorder {
+	 border-style: solid;
+    border-color: #a6a6a6;
+	border-width:1px;
+}
+
+.citizenClass { 
+	width:48px;
+}
+
+.ie .citizenClass { 
+	width:47px;
+}
+
+@media all and (-ms-high-contrast:none) {
+     .citizenClass { width:47px } /* IE10 */
+     *::-ms-backdrop, .citizenClass { width:47px } /* IE11 */
+}
+
+.addLocationSaveButton {
+    background: #666666 none repeat scroll 0 0 !important;
+    color: #ffffff;
+    font-size: 1.4em;
+ 	border:none !important;
+}
+
+.errorTxt{
+  border: 0px solid red;
+}
+
+.error-message-dispay {    
+    padding: 5px;
+    border: 1px solid red;
+    color: red;
+    display: none;
+    margin-bottom: 5px;
+}
+
+.dataHoverDisplay {
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dataHoverDisplay:hover{
+    overflow: visible; 
+    white-space: normal; 
+    width: 80%;
+    height:6%;
+    position: absolute;
+    background-color:#FFF;
+    border: 1px solid;
+}

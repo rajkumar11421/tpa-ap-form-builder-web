@@ -1,0 +1,9 @@
+server:
+  port: 8085
+  context-path: /tpa-ap-form-builder-web
+  
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/content/
+      suffix: .jsp
